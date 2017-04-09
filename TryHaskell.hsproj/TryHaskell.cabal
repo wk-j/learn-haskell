@@ -13,4 +13,5 @@ Executable TryHaskell
       base -any
   other-modules:
       HS01Introduction
+      HS03TypeAndTypeClasses
       HS02StartingOut

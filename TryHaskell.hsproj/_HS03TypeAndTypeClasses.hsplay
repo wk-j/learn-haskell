@@ -1,0 +1,27 @@
+-- Haskell Playground 1.0
+:t 'a'
+:t True
+:t "Hello"
+:t (True, 'a')
+:t 4 == 5
+
+removeNonUppercase "Abcde"
+addThree 10 20 30
+factorial 5
+factorial 50
+
+circumference 4.0
+
+:t head
+:t fst
+:t (==)
+show 3
+read "True" || False
+read "8.2" + 3.8
+read "5" - 2
+read "[1,2,3,4]" ++ [3]
+-- read "4"
+:t read
+
+read "5" :: Float
+[LT .. GT]
