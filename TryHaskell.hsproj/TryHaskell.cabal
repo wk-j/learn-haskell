@@ -12,6 +12,7 @@ Executable TryHaskell
   build-depends:
       base -any
   other-modules:
+      HS04SyntaxInFunctions
       HS01Introduction
       HS03TypeAndTypeClasses
       HS02StartingOut

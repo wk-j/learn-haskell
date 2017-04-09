@@ -1,0 +1,22 @@
+-- Haskell Playground 1.0
+lucky 7
+lucky 100
+lucky 200
+lucky (read "10")
+sayMe 100
+sayMe 1
+
+factorial 5
+factorial 50
+
+charName 'a'
+charName 'k'
+
+addVector (10, 20) (10,20)
+
+first (1,2,3) == 1
+second (1,2,3) == 2
+third (1,2,3) == 3
+
+let xs = [(1,3), (3,4)]
+[ a + b | (a,b) <- xs]
