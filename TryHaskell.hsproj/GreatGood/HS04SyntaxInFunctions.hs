@@ -1,4 +1,4 @@
-module HS04SyntaxInFunctions where
+module GreatGood.HS04SyntaxInFunctions where
   
 
 lucky 7 = "Lucky Number Seven"
@@ -19,7 +19,7 @@ charName 'b' = "Broseph"
 charName 'c' = "Cecil"
 
 addVector a b = (fst a + fst b, snd a + snd b)
-addVector (x1, y1) (x2,y2) = (x1 + x2, y1 + y2)
+-- addVector (x1, y1) (x2,y2) = (x1 + x2, y1 + y2)
 
 first (x, _, _) = x
 second (_, y, _) = y

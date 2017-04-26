@@ -1,4 +1,4 @@
-module HS02StartingOut where
+module GreatGood.HS02StartingOut where
   
 x = 2 + 15
 

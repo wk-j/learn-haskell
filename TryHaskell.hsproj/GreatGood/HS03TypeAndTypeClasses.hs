@@ -1,4 +1,4 @@
-module HS03TypeAndTypeClasses where
+module GreatGood.HS03TypeAndTypeClasses where
   
 removeNonUppercase :: [Char] -> [Char]
 removeNonUppercase st = [ c | c <- st, elem c ['A'..'Z']]
