@@ -14,6 +14,7 @@ Executable TryHaskell
   other-modules:
       BasicOfHaskell.C2
       BasicOfHaskell.C1
+      BasicOfHaskell.C3
       DerekBanas.HaskellTutorial
       GreatGood.HS04SyntaxInFunctions
       GreatGood.HS01Introduction
