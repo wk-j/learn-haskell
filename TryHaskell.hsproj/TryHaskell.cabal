@@ -12,6 +12,8 @@ Executable TryHaskell
   build-depends:
       base -any
   other-modules:
+      BasicOfHaskell.C2
+      BasicOfHaskell.C1
       DerekBanas.HaskellTutorial
       GreatGood.HS04SyntaxInFunctions
       GreatGood.HS01Introduction
