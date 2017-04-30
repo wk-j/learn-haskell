@@ -13,6 +13,7 @@ Executable TryHaskell
       base -any,
       safe -any
   other-modules:
+      BasicTypeLevel.Main
       BasicOfHaskell.C2
       BasicOfHaskell.C1
       BasicOfHaskell.C3

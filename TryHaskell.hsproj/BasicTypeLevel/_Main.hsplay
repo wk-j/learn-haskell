@@ -1,0 +1,8 @@
+-- Haskell Playground 1.0
+theFirstOne
+theSecond
+
+-- nothingInt == nothingChar
+nothingA == nothingInt
+nothingA == nothingChar
+
