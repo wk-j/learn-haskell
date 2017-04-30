@@ -88,3 +88,25 @@ v8 = do
       
   displayAge maybeAge
                       
+-- Partial application
+v9 = do
+  putStrLn "Please enter you birth year"
+  let birthYearString = "1986"
+  putStrLn "Please enter some year in the future"
+  let futureYearString = "2030"
+  let maybeAge = do
+      yearToAge <- fmap yearDiff $ readMay futureYearString
+      birthYear <- readMay birthYearString
+      return $ yearToAge birthYear
+  displayAge maybeAge
+      
+-- Use fmap twice
+v10 = do
+  putStrLn "Please enter you birth year"
+  let birthYearString = "1986"
+  putStrLn "Please enter some year in the future"
+  let futureYearString = "2030"
+  let maybeAge = do
+      yearToAge <- fmap yearDiff $ readMay futureYearString
+      fmap yearToAge $ readMay birthYearString
+  displayAge maybeAge
