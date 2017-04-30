@@ -43,3 +43,48 @@ v4 =
             Just year -> Just $ yearToAge year
     displayAge maybeAge
     
+-- Functor
+v5 = do
+  putStrLn "Please enter your birth year"
+  let yearString = "1920"
+  let maybeAge = fmap yearToAge $ readMay yearString
+  displayAge maybeAge
+    
+
+v6 = do
+  putStrLn "Please enter your birth year"
+  let yearString = "1928"
+  let maybeAge = do
+      yearInteger <- readMay yearString
+      return $ yearToAge yearInteger
+  displayAge maybeAge
+  
+-- Dealing with two variable
+v7 = do
+  putStrLn "Plese enter your birth year"
+  let birthYearString = "1986"
+  putStrLn "Please enter some year in the future"
+  let futureYearString = "2030"
+  let maybeAge = 
+        case readMay birthYearString of
+          Nothing -> Nothing
+          Just birthYear ->
+                case readMay futureYearString of
+                  Nothing -> Nothing
+                  Just futureYear -> Just $ futureYear - birthYear
+  displayAge maybeAge
+
+yearDiff f b = f - b  
+
+v8 = do
+  putStrLn "Please enter your birth year"
+  let birthYearString = "1986"
+  putStrLn "Please enter some year in the future"
+  let futureYearString = "2030"
+  let maybeAge = do
+      birthYear <- readMay birthYearString
+      futureYear <- readMay futureYearString
+      return $ yearDiff futureYear birthYear
+      
+  displayAge maybeAge
+                      
