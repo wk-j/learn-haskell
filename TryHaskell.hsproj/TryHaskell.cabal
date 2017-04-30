@@ -10,7 +10,8 @@ Executable TryHaskell
   main-is: Main.hs
   buildable: True
   build-depends:
-      base -any
+      base -any,
+      safe -any
   other-modules:
       BasicOfHaskell.C2
       BasicOfHaskell.C1
@@ -20,4 +21,6 @@ Executable TryHaskell
       GreatGood.HS01Introduction
       GreatGood.HS03TypeAndTypeClasses
       GreatGood.HS02StartingOut
+      SumProduct.Main
+      FunctorApplicativeMonad.Main
       WriteYour.C1
