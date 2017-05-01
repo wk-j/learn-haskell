@@ -110,3 +110,29 @@ v10 = do
       yearToAge <- fmap yearDiff $ readMay futureYearString
       fmap yearToAge $ readMay birthYearString
   displayAge maybeAge
+  
+
+-- Applicative functor
+v11 = do
+  putStrLn "Please enter you birth year"
+  let birthYearString = "1986"
+  putStrLn "Please enter some year in the future"
+  let futureYearString = "2030"
+  let maybeAge =
+        fmap yearDiff (readMay futureYearString) <*> readMay birthYearString
+  displayAge maybeAge
+  
+v12 = do
+    putStrLn "Please enter your birth year"
+    let birthYearString = "1986"
+    putStrLn "Please enter some year in the future"
+    let futureYearString = "2030"
+-- show
+    let maybeAge = yearDiff
+            <$> readMay futureYearString
+            <*> readMay birthYearString
+-- /show
+    displayAge maybeAge
+
+
+

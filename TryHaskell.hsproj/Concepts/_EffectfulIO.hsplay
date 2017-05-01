@@ -1,0 +1,11 @@
+-- Haskell Playground 1.0
+v1
+andTheAnswerIs
+
+let x = "Hello HI"
+
+countChar 'H' x
+filter (=='H') x
+length $ filter (=='H') x
+
+countCharInFile 'h' "./secret"

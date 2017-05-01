@@ -11,7 +11,8 @@ Executable TryHaskell
   buildable: True
   build-depends:
       base -any,
-      safe -any
+      safe -any,
+      containers -any
   other-modules:
       BasicTypeLevel.Main
       BasicOfHaskell.C2
@@ -23,5 +24,7 @@ Executable TryHaskell
       GreatGood.HS03TypeAndTypeClasses
       GreatGood.HS02StartingOut
       SumProduct.Main
+      Concepts.EffectfulIO
+      Concepts.Monoids
       FunctorApplicativeMonad.Main
       WriteYour.C1
