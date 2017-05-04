@@ -1,0 +1,9 @@
+-- Haskell Playground 1.0
+let a = [1,2,3]
+head a
+
+let line = "-- h-run"
+
+isInfixOf "-- (script)" line
+
+go

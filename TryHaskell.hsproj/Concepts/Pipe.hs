@@ -5,5 +5,7 @@ module Concepts.Pipe where
 
 rs = [1..20] |> filter even |> filter (> 5) |> sum
 
+main =
+    print rs
 
 

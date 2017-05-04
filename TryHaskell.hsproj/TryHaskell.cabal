@@ -24,8 +24,9 @@ Executable TryHaskell
       GreatGood.HS03TypeAndTypeClasses
       GreatGood.HS02StartingOut
       SumProduct.Main
-      Concepts.Pipe
+      Concepts.List
       Concepts.EffectfulIO
       Concepts.Monoids
+      Concepts.Pipe
       FunctorApplicativeMonad.Main
       WriteYour.C1

@@ -1,2 +1,3 @@
 -- Haskell Playground 1.0
-t
+
+:describe x <$> y <*> z <* p <|> k
