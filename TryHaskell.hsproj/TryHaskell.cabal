@@ -29,4 +29,5 @@ Executable TryHaskell
       Concepts.Monoids
       Concepts.Pipe
       FunctorApplicativeMonad.Main
+      Snip.RepeatPattern
       WriteYour.C1

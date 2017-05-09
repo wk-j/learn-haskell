@@ -1,0 +1,18 @@
+-- Haskell Playground 1.0
+
+let f x@y@z = x + y + z
+f 3
+f 5
+
+data R = R { (-->) :: Int -> Int }
+let r = R { (-->) = (+1) }
+r --> 8
+r --> 9
+
+(-->) r 8
+(-->) r 9
+
+let f (+) x y = x + y
+f (*) 2 3
+f (+) 2 3
+f (-) 2 3
