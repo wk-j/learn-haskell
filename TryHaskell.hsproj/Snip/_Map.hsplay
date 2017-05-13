@@ -1,0 +1,10 @@
+-- Haskell Playground 1.0
+head $ map (* 2) [5]
+sum . map (* 3) . filter odd
+
+let mapX f = fmap head $ mapM f [0..]
+
+
+let tex = "https://twitter.com/amirrajan/status/863403258332798976"
+let el =  (!! 3) . splitOn  "/" 
+el tex
