@@ -22,3 +22,7 @@ r4 1 5
 
 let r5 x@ w = (x,w)
 r5 1
+
+
+let r6 r@x y z = (r, x, y, z)
+r6  1 2 3
