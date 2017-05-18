@@ -1,0 +1,13 @@
+-- Haskell Playground 1.0
+
+let person = Person "wk" 20 
+
+:i String
+:i Person
+
+isNameWk person
+
+:k Int
+:k Person
+:k PersonPredicate
+:k (->)

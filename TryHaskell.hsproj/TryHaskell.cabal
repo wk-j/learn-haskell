@@ -30,9 +30,12 @@ Executable TryHaskell
       Concepts.Monoids
       Concepts.Pipe
       FunctorApplicativeMonad.Main
-      Snip.DiggingHaskell
       Snip.MonadMakeDifficult
-      Snip.RepeatPattern
-      Snip.TwoTwoFive
+      Snip.Data
       Snip.Map
+      Snip.DiggingHaskell
+      Snip.RepeatPattern
+      Snip.BangPattern
+      Snip.PatternMatching
+      Snip.TwoTwoFive
       WriteYour.C1

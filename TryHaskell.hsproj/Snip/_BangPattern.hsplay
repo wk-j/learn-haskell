@@ -1,0 +1,22 @@
+-- Haskell Playground 1.0
+hello True
+hello undefined
+hello (fix id)
+
+hello2 True
+hello2 undefined
+-- hello2 (fix id) // loop
+
+
+hello3 True
+hello3 False
+hello3 undefined
+
+
+let x = \x -> x
+x 10
+
+let x x = x 
+x 10
+
+r --> 8
