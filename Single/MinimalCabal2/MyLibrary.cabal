@@ -1,0 +1,15 @@
+name: MyLibrary
+version: 0.0.1
+build-type: Simple
+cabal-version: >= 1.8
+
+library
+    explose-modules: MyLibrary
+    build-depends: base
+    default-langauge: Haskell2010
+
+executable MyLib-exe
+    main-is: Main.hs
+    build-depends:
+        base,
+        MyLibrary
