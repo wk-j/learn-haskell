@@ -12,8 +12,10 @@ Executable TryHaskell
   build-depends:
       base -any,
       safe -any,
+      shakespeare -any,
       containers -any,
-      split -any
+      split -any,
+      text -any
   other-modules:
       BasicTypeLevel.Main
       BasicOfHaskell.C2
@@ -30,12 +32,16 @@ Executable TryHaskell
       Concepts.Monoids
       Concepts.Pipe
       FunctorApplicativeMonad.Main
+      Snip.TwoTwoFive
       Snip.MonadMakeDifficult
+      Snip.Pipe
       Snip.Data
+      Snip.TypeOperator
       Snip.Map
       Snip.DiggingHaskell
       Snip.RepeatPattern
       Snip.BangPattern
       Snip.PatternMatching
-      Snip.TwoTwoFive
+      Snip.SafeFormat
+      Snip.Read
       WriteYour.C1

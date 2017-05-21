@@ -1,0 +1,7 @@
+-- Haskell Playground 1.0
+read "100." :: Int
+readMaybe "100." :: Maybe Int
+readMaybe "100" :: Maybe Int
+
+tryParse "100"
+tryParse "100."
