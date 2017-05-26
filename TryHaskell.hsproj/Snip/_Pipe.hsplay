@@ -1,0 +1,5 @@
+-- Haskell Playground 1.0
+
+[1..100] |> filter even |> filter (< 5)  |> sum
+
+let k = 200 ||> go 100

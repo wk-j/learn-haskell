@@ -8,4 +8,8 @@ tryParse value =
     [ (v, "") ] -> (True, v)
     _ -> (False, 0)
     
-  
+intValue1 :: Maybe Int
+intValue1 = readMaybe "100." 
+
+
+intValue2 = readMaybe "100" 

@@ -1,7 +1,9 @@
 -- Haskell Playground 1.0
-read "100." :: Int
-readMaybe "100." :: Maybe Int
-readMaybe "100" :: Maybe Int
+case intValue1 of
+  Just value -> putStrLn "ok"
+  Nothing -> putStrLn "not ok"
+  
 
-tryParse "100"
-tryParse "100."
+let (success, value) = tryParse "100"
+success
+value

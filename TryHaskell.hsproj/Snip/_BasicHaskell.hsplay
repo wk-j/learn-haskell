@@ -1,0 +1,52 @@
+-- Haskell Playground 1.0
+isGeenZero C { red = 1, green = 0, blue = 0 }
+isGeenZero (C 0 0 0)
+
+setGreen $ P (C 0 0 0)
+setGreen $ P (C 0 1 0)
+
+
+defValue [100]
+defValue (0 :: Int)
+defValue "Hello"
+defValue $ Just "Hello"
+defValue $ Just [100]
+
+
+squares
+divisors 10
+
+"Hello" ## "World"
+
+add10 100
+add10 200
+
+noGreen1 (C 10 0 10)
+
+let multBy10 = multBy 10
+multBy10 10
+
+negateAll [1,2,3]
+
+whichChoice Second
+whichChoice (First "")
+
+strcmp "Hello" "Hello"
+
+flovor True
+flovor 'H'
+
+
+whatUser (Admin "wk")
+
+
+whichCon (Con "H")
+whichCon (Noncon)
+
+process 100
+process "Hi"
+
+
+
+
+
