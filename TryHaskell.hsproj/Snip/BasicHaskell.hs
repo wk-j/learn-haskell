@@ -1,6 +1,7 @@
 module Snip.BasicHaskell where
   
 import Data.Char
+import System.Directory
   
 data Color = C { red, green, blue :: Int }
 
@@ -128,6 +129,23 @@ data Alarm = Soft | Load | Deafening
 
 process :: (Num a) => a -> a
 process a = a
+
+
+doesFileExist' :: FilePath -> IO Bool
+doesFileExist' path = 
+  doesDirectoryExist path
+  
+sq x = 
+  let x2 = x + x
+  in x2 * x2
+  
+
+allEmpty _ = False
+allEmpty [] = True
+alwaysEven n
+  | otherwise = False
+  | n `div` 2 == 0 = True
+
 
 
 

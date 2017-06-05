@@ -10,12 +10,13 @@ Executable TryHaskell
   main-is: Main.hs
   buildable: True
   build-depends:
-      base -any,
       safe -any,
       shakespeare -any,
-      containers -any,
       split -any,
-      text -any
+      text -any,
+      base -any,
+      containers -any,
+      directory -any
   other-modules:
       BasicTypeLevel.Main
       BasicOfHaskell.C2
@@ -32,11 +33,13 @@ Executable TryHaskell
       Concepts.Monoids
       Concepts.Pipe
       FunctorApplicativeMonad.Main
+      Snip.ActivePattern
       Snip.AAA
       Snip.MonadMakeDifficult
       Snip.Data
       Snip.Pipe
       Snip.String
+      Snip.PatternSynonyms
       Snip.RepeatPattern
       Snip.TC
       Snip.TwoTwoFive

@@ -49,4 +49,13 @@ process "Hi"
 
 
 
+doesFileExist' "BasicHaskell.hs"
+
+sq 100
+
+allEmpty []
+
+
+
+
 

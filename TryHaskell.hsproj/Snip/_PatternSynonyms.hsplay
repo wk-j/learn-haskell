@@ -1,0 +1,8 @@
+-- Haskell Playground 1.0
+
+addSquare 10 100
+
+extract "333s"
+
+test A
+test B 
