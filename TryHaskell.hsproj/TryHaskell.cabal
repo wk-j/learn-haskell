@@ -38,6 +38,7 @@ Executable TryHaskell
       Snip.MonadMakeDifficult
       Snip.Data
       Snip.Pipe
+      Snip.RecordViewPatterns
       Snip.String
       Snip.PatternSynonyms
       Snip.RepeatPattern
