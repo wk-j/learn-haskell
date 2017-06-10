@@ -1,0 +1,21 @@
+-- Haskell Playground 1.0
+
+do 
+  let maybeFuture = readMaybe futureYear
+  let maybeBirthYear = readMaybe birthYear
+  
+  yearToAge <- fmap yearDiff maybeFuture
+  fmap yearToAge maybeBirthYear
+  
+do 
+  let maybeFuture = readMaybe futureYear
+  let maybeBirthYear = readMaybe birthYear
+  
+  fmap yearDiff maybeFuture <*> maybeBirthYear
+     
+
+
+let maybeFuture = readMaybe futureYear
+let maybeBirthYear = readMaybe birthYear
+fmap yearDiff maybeFuture
+  

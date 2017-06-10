@@ -8,4 +8,7 @@ module Main where
 type (🍎 )  = IO()
 
 main :: ( 🍎 )
-main = putStrLn "Hello"
+main =  do
+    putStrLn "Hi!"
+    putStrLn "Hello, world environment day"
+
